@@ -1,0 +1,68 @@
+baseurl = "/"
+languageCode = "zh-cn"
+theme = "terminal"
+paginate = 5
+defaultContentLanguage = "zh-cn"
+
+[params]
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor = "green"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 3
+
+  # show selector to switch language
+  showLanguageSelector = false
+
+  # set theme to full screen width
+  fullWidthTheme = false
+
+  # center theme with default width
+  centerTheme = true
+
+  # set a custom favicon (default is a `themeColor` square)
+  # favicon = "favicon.ico"
+
+  # set all headings to their default size (depending on browser settings)
+  # it's set to `true` by default
+  # oneHeadingSize = false
+
+[params.twitter]
+  # set Twitter handles for Twitter cards
+  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
+  # do not include @
+  creator = ""
+  site = ""
+
+[languages]
+  [languages.zh-cn]
+    languageName = "简体中文"
+    title = "Roguelike Fans"
+    subtitle = ""
+    owner = ""
+    keywords = ""
+    copyright = ""
+    menuMore = "更多"
+    readMore = "更多"
+    readOtherPosts = "其他文章"
+
+    [languages.zh-cn.params.logo]
+      logoText = "Roguelike Fans"
+      logoHomeLink = "/"
+
+    [languages.zh-cn.menu]
+      [[languages.zh-cn.menu.main]]
+        identifier = "about"
+        name = "关于"
+        url = "/posts/welcome"
+      [[languages.zh-cn.menu.main]]
+        identifier = "QQ"
+        name = "QQ群"
+        url = "/posts/QQ"
+	  [[languages.zh-cn.menu.main]]
+        identifier = "WebTiles"
+        name = "DCSS网页版"
+        url = "http://crawl.roguelike.fans"
