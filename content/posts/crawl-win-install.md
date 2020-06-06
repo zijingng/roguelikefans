@@ -5,30 +5,30 @@ title: "在Windows下编译DCSS"
 date: 2020-06-02T21:45:42+08:00
 author: ""
 cover: ""
-tags: ["DCSS"]
+tags: ["DCSS", "MSYS2"]
 keywords: []
-description: "在Windows MSYS2环境下编译DCSS。"
+description: "在 Windows MSYS2 环境下编译 DCSS。"
 showFullContent: false
 ---
-###### 1. 下载安装MSYS2
+###### 1. 下载安装 MSYS2
 
    https://msys2.github.io/
 
-   推荐安装64位MSYS2。
+   推荐安装64位 MSYS2。
 
-###### 2. 运行MSYS2 MinGW 64-bit
+###### 2. 运行 MSYS2 MinGW 64-bit
 
-   *请不要运行MSYS2 MinGW 32-bit或MSYS2 MSYS。*
+   *请不要运行 MSYS2 MinGW 32-bit 或 MSYS2 MSYS。*
 
 ###### 3. 更新核心软件包
 
-   在MSYS2 MinGW 64-bit命令行运行：
+   在 MSYS2 MinGW 64-bit 命令行运行：
 
    ```bash/shell
    pacman -Syu
    ```
 
-   安装完成后需要重启MSYS2命令行。
+   安装完成后需要重启 MSYS2 命令行。
 
 ###### 4. 更新全部软件包
 
@@ -36,13 +36,13 @@ showFullContent: false
    pacman -Su
    ```
 
-###### 5. 安装git和基础开发软件包
+###### 5. 安装 git 和基础开发软件包
 
    ```bash/shell
    pacman -S base-devel git
    ```
 
-###### 6. 安装MinGW64编译工具链
+###### 6. 安装 MinGW64 编译工具链
 
    ```bash/shell
    pacman -S mingw-w64-x86_64-toolchain
@@ -50,7 +50,7 @@ showFullContent: false
 
    到这一步开发环境就建好了！
 
-###### 7. 安装PyYAML
+###### 7. 安装 PyYAML
 
    ```bash/shell
    pacman -S mingw64/mingw-w64-x86_64-python3-pip
@@ -63,7 +63,7 @@ showFullContent: false
    pacman -S mingw-w64-x86_64-python3-yaml
    ```
 
-###### 8. 克隆crawl源代码
+###### 8. 克隆 crawl 源代码
 
    ```bash/shell
    cd ~
@@ -75,7 +75,7 @@ showFullContent: false
    git submodule update --init
    ```
 
-###### 9. 编译crawl
+###### 9. 编译 crawl
 
    - 编译命令行版本：
 
@@ -89,24 +89,24 @@ showFullContent: false
       make TILES=y
       ```
 
-   - 编译debug版本：
+   - 编译 debug 版本：
 
-      在命令最后加入目标`debug`，例如：
+      在命令最后加入目标 `debug`，例如：
 
       ```bash/shell
       make debug
       ```
 
-   - 利用CPU多线程加速编译：
+   - 利用 CPU 多线程加速编译：
 
       ```bash/shell
       make -j [线程数]
       ```
 
-###### 10. 运行crawl
-   - 在文件管理器中`C:\msys64\home\用户名\crawl\crawl-ref\source`路径下双击`crawl.exe`即可运行。
+###### 10. 运行 crawl
+   - 在文件管理器中 `C:\msys64\home\用户名\crawl\crawl-ref\source` 路径下双击 `crawl.exe` 即可运行。
 
-   - 或者在MSYS2命令行中运行，命令行版本：
+   - 或者在 MSYS2 命令行中运行，命令行版本：
 
       ```sh
       start crawl

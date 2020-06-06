@@ -7,11 +7,11 @@ author: ""
 cover: ""
 tags: []
 keywords: []
-description: "这是一个分享Roguelike游玩和开发感想的小角落。"
+description: "这是一个分享 Roguelike 游玩和开发感想的小角落。"
 showFullContent: false
 ---
 
-这是一个分享Roguelike游玩和开发感想的小角落。
+这是一个分享 Roguelike 游玩和开发感想的小角落。
 
 你可以随便看看，比如[QQ群](/posts/qq)和[DCSS网页版](http://crawl.roguelike.fans)。
 
