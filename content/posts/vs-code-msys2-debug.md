@@ -67,7 +67,7 @@ showFullContent: false
                 "pipeCwd": ""
             },
             "sourceFileMap": {
-                "/home/wzj/crawl-zh": "${workspaceRoot}"
+                "/home/用户名/crawl": "${workspaceRoot}"
             },
             "setupCommands": [
                 {

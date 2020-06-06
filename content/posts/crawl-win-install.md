@@ -1,7 +1,7 @@
 ---
 typora-root-url: ..\..\static
 
-title: "在Windows下编译DCSS"
+title: "在 Windows 下编译 DCSS"
 date: 2020-06-02T21:45:42+08:00
 author: ""
 cover: ""
@@ -22,7 +22,7 @@ showFullContent: false
 
 ###### 3. 更新核心软件包
 
-   在 MSYS2 MinGW 64-bit 命令行运行：
+   在 MSYS2 MinGW 64-bit 命令行中运行：
 
    ```bash/shell
    pacman -Syu
