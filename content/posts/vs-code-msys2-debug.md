@@ -5,7 +5,7 @@ title: "Visual Studio Code 集成 MSYS2 make 和 gdb"
 date: 2020-06-06T11:10:04+08:00
 author: ""
 cover: ""
-tags: ["VS Code", "MSYS2"]
+tags: ["VS Code", "MSYS2", "DCSS"]
 keywords: []
 description: " "
 showFullContent: false
