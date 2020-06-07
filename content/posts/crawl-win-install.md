@@ -74,6 +74,8 @@ showFullContent: false
    
    git submodule update --init
    ```
+   
+   克隆的源代码位于 Windows `C:\msys64\home\用户名\crawl\crawl-ref\source` 路径下。
 
 ###### 9. 编译 crawl
 
