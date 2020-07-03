@@ -62,7 +62,11 @@ defaultContentLanguage = "zh-cn"
         identifier = "QQ"
         name = "QQ群"
         url = "/posts/QQ"
-	  [[languages.zh-cn.menu.main]]
+      [[languages.zh-cn.menu.main]]
         identifier = "WebTiles"
         name = "DCSS网页版"
         url = "http://crawl.roguelike.fans"
+      [[languages.zh-cn.menu.main]]
+        identifier = "TetrisRL"
+	name = "1iuh"
+	url = "https://1iuh.github.io/"
