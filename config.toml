@@ -12,7 +12,7 @@ defaultContentLanguage = "zh-cn"
   themeColor = "green"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 3
+  showMenuItems = 4
 
   # show selector to switch language
   showLanguageSelector = false
@@ -65,8 +65,8 @@ defaultContentLanguage = "zh-cn"
       [[languages.zh-cn.menu.main]]
         identifier = "WebTiles"
         name = "DCSS网页版"
-        url = "http://crawl.roguelike.fans"
+        url = "http://crawl.roguelike.fans/"
       [[languages.zh-cn.menu.main]]
-        identifier = "TetrisRL"
-	name = "1iuh"
+        identifier = "1iuh"
+	name = "TetrisRL"
 	url = "https://1iuh.github.io/"
