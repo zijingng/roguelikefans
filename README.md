@@ -1,2 +1,2 @@
 # roguelikefans
-Source of [roguelike.fans](http://rouguelike.fans/). 
+Source of [roguelike.fans](http://roguelike.fans/). 
