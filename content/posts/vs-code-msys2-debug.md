@@ -11,7 +11,7 @@ description: " "
 showFullContent: false
 ---
 ###### 在Visual Studio Code中配置 MSYS2 make 任务
-- 按照[将 Visual Studio Code 的集成终端设置为 MSYS2](/posts/vs-code-msys2)设置 VS Code 终端。
+- 按照[将 Visual Studio Code 的集成终端设置为 MSYS2](/posts/vs-code-msys2/)设置 VS Code 终端。
 - 如果你运行 `make` 的工作区文件夹下没有 `.vscode/tasks.json` 文件，新建一个这样的文件。
 - 在 `.vscode/tasks.json` 文件中加入配置，以 DCSS `debug` 为例：
 ```json
