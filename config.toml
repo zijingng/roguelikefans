@@ -57,11 +57,11 @@ defaultContentLanguage = "zh-cn"
       [[languages.zh-cn.menu.main]]
         identifier = "about"
         name = "关于"
-        url = "/posts/welcome"
+        url = "/posts/welcome/"
       [[languages.zh-cn.menu.main]]
         identifier = "QQ"
         name = "QQ群"
-        url = "/posts/QQ"
+        url = "/posts/QQ/"
       [[languages.zh-cn.menu.main]]
         identifier = "WebTiles"
         name = "DCSS网页版"
